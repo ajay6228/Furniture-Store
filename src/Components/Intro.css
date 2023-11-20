@@ -1,0 +1,22 @@
+/* Intro.css */
+
+/* Add this CSS to your stylesheet */
+.intro-container {
+    padding-top: 5%;
+  }
+  
+  .intro-text {
+    font-size: 30px;
+  }
+  
+  .intro-subtext {
+    font-size: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .intro-text,
+    .intro-subtext {
+      font-size: 18px;
+    }
+  }
+  

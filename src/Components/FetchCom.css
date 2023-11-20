@@ -1,0 +1,36 @@
+/* Add this CSS to your stylesheet */
+
+/* Style adjustments for larger screens */
+.table-container {
+    margin: 30px auto;
+    width: 75%;
+  }
+  
+  /* Style adjustments for medium-sized screens */
+  @media (max-width: 992px) {
+    .table-container {
+      width: 90%;
+    }
+  }
+  
+  /* Style adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .table-container {
+      width: 100%;
+      padding: 0 10px;
+    }
+  }
+  
+  /* Style adjustments for buttons on smaller screens */
+  .btn-container {
+    width: 15%;
+    margin: 10px auto;
+  }
+  
+  /* Style adjustments for buttons on smaller screens */
+  @media (max-width: 768px) {
+    .btn-container {
+      width: 100%;
+    }
+  }
+  

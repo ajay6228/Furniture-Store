@@ -1,0 +1,56 @@
+/* Nav.css */
+
+.NavbarComponent {
+  background-color: white;
+  width: 100%;
+  height: 60px;
+  font-size: auto;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-nav {
+  position: relative;
+}
+
+.cart-link {
+  position: relative;
+}
+
+.cart-item-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: red;
+  color: white;
+  margin-top: 8px;
+  border-radius: 75%;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .collapse.navbar-collapse.show {
+    display: flex;
+    background-color: white;
+  }
+
+  .navbar-nav {
+    background-color: white;
+  }
+
+  .navbar-nav .nav-link {
+    color: black;
+  }
+
+  form.d-flex {
+    color: black;
+  }
+
+  .btn.btn-outline-dark.active {
+    color: white;
+    background-color: black;
+  }
+}
